@@ -123,3 +123,12 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+img.socialIcon {
+  transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1), box-shadow 0.4s;
+}
+
+img.socialIcon:hover {
+  transform: scale(1.25) rotate(-10deg);
+  box-shadow: 0 8px 24px rgba(78, 86, 126, 0.25), 0 1.5px 8px rgba(78, 86, 126, 0.15);
+  filter: brightness(1.15) drop-shadow(0 0 6px #4e567e);
+}
